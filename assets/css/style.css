@@ -1,0 +1,67 @@
+body {
+    background: lightgray;
+    color: white;
+}
+
+header {
+    background: #4aaaa5;
+    width: 100%;
+    padding: 5px;
+    top: 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* #navigation { */
+    /* text-align: left;
+}  */
+
+#AboutMe {
+    color: lightseagreen;
+}
+
+h1 {
+    color: white;
+}
+
+#container {
+    padding: 5px;
+    height: 400px;
+    width: 1024px;
+    margin-left: 200px;
+    background: darkgray;
+}
+
+#floated {
+    float: left;
+    width: 100px;
+    background: red;
+}
+
+/* #container{
+    width: 400px;
+    background: yellow;
+}
+#floated{
+    float: left;
+    width: 150px;
+    background: red;
+} */
+    
+}
+
+.JoshuaKuruvilla {
+    font-size: 48px;
+    float: left;
+
+}
+footer {
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    background-color: magenta;
+    position: fixed;
+    clear: both;
+    bottom: 0;
+    /* right: 1px; */
+}

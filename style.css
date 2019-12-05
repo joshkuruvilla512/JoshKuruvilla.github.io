@@ -11,14 +11,14 @@ header {
     text-align: center;
 }
 
-#navigation {
+/* #navigation {
     background: white;
     
     width: 100%;
     float: right;
     padding: 20px;
     text-align: center;
-}
+} */
 
 #AboutMe {
     color: lightseagreen;
@@ -37,4 +37,11 @@ h1 {
     font-size: 48px;
     float: left;
 
+}
+footer {
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    background-color: magenta;
+    bottom: 0;
 }

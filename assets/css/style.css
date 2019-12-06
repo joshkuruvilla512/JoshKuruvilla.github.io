@@ -3,6 +3,7 @@ body {
     background: lightgray;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
 }
 
 header {
@@ -62,6 +63,15 @@ nav {
 
 #container {
     height: 400px;
+    max-width: 100%;
+    width: 960px;
+    background: #fff;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+#portfolioContainer {
+    height: 700px;
     max-width: 100%;
     width: 960px;
     background: #fff;
@@ -153,7 +163,7 @@ input[type=text], select, textarea {
     background-color: #eee; 
     width: 275px;
     height: 200px; 
-    margin: 30px 35px 20px 0px; 
+    margin: 10px 10px 10px 10px; 
     position: relative;
 }
 .one {

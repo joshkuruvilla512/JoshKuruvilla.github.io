@@ -1,20 +1,63 @@
 body {
     background: lightgray;
-    color: white;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* } */
+/* #Name {
+background: #4aaaa5;
+/* width: 960px; */
+/* } */
+
+/* .Name {
+    background: lightgray;
+    
+    max-width: 960px;
+    display: flex;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+} */
+h1 {
+    background: #4aaaa5;
 }
 
-header {
-    background: #4aaaa5;
+/* .flex {
     width: 100%;
-    padding: 5px;
-    top: 0;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; */
+
+/* } */
+
+header {
+    background: #ffffff;
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 2px #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* #navigation { */
-    /* text-align: left;
-}  */
+.in-header {
+    width: 960px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav {
+    order: 1;
+    padding: 20px 0px 20px 0px;
+    text-align: right;
+}
+
+.nav-link {
+    padding-right: 5px;
+    float: right;
+}
 
 #AboutMe {
     color: lightseagreen;
@@ -22,14 +65,41 @@ header {
 
 h1 {
     color: white;
+    float: left;
+    text-align: center;
+    background-color: #4aaaa5;
+    padding: 15px;
+    margin: auto 0;
 }
 
 #container {
-    padding: 5px;
     height: 400px;
-    width: 1024px;
-    margin-left: 200px;
-    background: darkgray;
+    width: 960px;
+    background: #fff;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.about {
+    padding: 20px;
+}
+
+.navLink {
+    padding: 0px 15px 0px 15px;
+}
+
+/* .thisisnotusedYET {height: auto;
+width: 960px;
+background: darkgray;
+padding: 20px;
+margin: 0 auto;
+} */
+
+.container2 {
+    background: whitesmoke;
+    width: 400px;
+    height: 400px;
+    overflow: auto;
 }
 
 #floated {
@@ -55,6 +125,10 @@ h1 {
     float: left;
 
 }
+
+/* #party { */
+    /* image-resolution: ; */
+/* } */
 footer {
     width: 100%;
     text-align: center;
@@ -65,3 +139,11 @@ footer {
     bottom: 0;
     /* right: 1px; */
 }
+
+#bio-image {
+    float: left;
+    padding: 15px;
+    width: 200px;
+    height: 200px;
+}
+

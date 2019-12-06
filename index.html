@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,42 +11,67 @@
 </head>
 
 <body>
-    <Header>
-        <div class="navigation">
-        <h1>Joshua Kuruvilla</h1>
-        <nav>
-            <a href="index.html">About</a> 
-            <a href="Portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-        </div>
-    </Header>
+    <header>
+        
 
-    <!-- <h1>About Me</h1>
-    
-    <p>Hi I'm Josh Kuruvilla. I am trying to continue in my career in Supply Chain. This field is growing and evolving to include some programming experience in order to get the job done. I'm here to get a head start and get ahead of the game.</p>
-        <p>My hobbies are Photography, Video games and a fellow Car Enthusiast. I like long walks on the streets of Austin, and exploring this glorious city. If you or a friend would like to grab dinner with me, please feel free to message me on my profile, https://www.christianmingle.com/StillSingleAndSadlyReady2Mingle</p> -->
+        <div class="in-header">
+                <h1>Joshua Kuruvilla</h1>
+            <nav>
+                
+                      <span class="navLink">
+                          <a href="index.html">About</a>
+                    </span> 
+
+                    <span class="navLink">
+                            |
+                      </span> 
+
+                    <span class="navLink">
+                        <a href="Portfolio.html">Portfolio</a>
+                    </span> 
+
+                    <span class="navLink">
+                            |
+                      </span> 
+
+                    <span class="navLink">
+                        <a href="contact.html">Contact</a>
+                    </span> 
+
+
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <br>
 
     <div id="container">
-            <h1>About Me</h1>
-    
-            <p>Hi I'm Josh Kuruvilla. I am trying to continue in my career in Supply Chain. This field is growing and evolving to include some programming experience in order to get the job done. I'm here to get a head start and get ahead of the game.</p>
-                <p>My hobbies are Photography, Video games and a fellow Car Enthusiast. I like long walks on the streets of Austin, and exploring this glorious city. If you or a friend would like to grab dinner with me, please feel free to message me on my profile, https://www.christianmingle.com/StillSingleAndSadlyReady2Mingle</p>
-        <div id="floated"></div>
-        
+        <section class="about">
+            <h2>About Me</h2>
 
+        <hr>
 
-            <img src="data:image/jpeg;base64,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" alt="Party" id="party">
-           </div>
+        <section class="bio"><img id="bio-image" src="assets/images/Eiffel Tower.png" alt="Party">
 
-        
+            <p>Hi I'm Josh Kuruvilla. I am trying to continue in my career in Supply Chain. This field is growing and
+                evolving to include some programming experience in order to get the job done. I'm here to get a head
+                start
+                and get ahead of the game.</p>
 
-        
+            <p>My hobbies are Photography, Video games and a fellow Car Enthusiast. I like long walks on the streets of
+                Austin, and exploring this glorious city. If you or a friend would like to grab dinner with me, please
+                feel
+                free to message me on my profile, https://www.christianmingle.com/StillSingleAndSadlyReady2Mingle</p>
+           
+        </section>
+        </section>
+    </div>
 
-
-    
     <footer>
         <p>Copyright &copy;</p>
     </footer>
+
 </body>
+
 </html>
